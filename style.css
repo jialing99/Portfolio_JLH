@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bahnschrift';
+}
+@font-face {
+    font-family: 'Bahnschrift Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bahnschrift Regular'), url('BAHNSCHRIFT 1.woff') format('woff');
+}
+p{
+    font-size: 20px;
+}
+h1{
+      font-variant: small-caps;
+}
+.title{
+    font-size: 55px;
+}
+/*Navigation*/
+nav{
+    color: black;
+    background: #ffff;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    border-bottom: 3px solid red;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+}
+li{
+    display: inline-block;
+    padding: 15px;
+    font-size: 20px;
+}
+.right{
+    float:right;
+}
+/*Banner*/
+.banner{
+    background-image: url(Assets/Asset%205.svg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 35vh;
+}
+/*Body*/
+.info{
+    background-color: black;
+    border-style: double;
+    color: #ffff;
+    text-align: center;
+    padding: 10% 25% 10% 25%;
+    border-width: 50px;
+}
+.menu{
+    text-align: center;
+    padding: 10px;
+}
+/*Container*/
+.container {
+    background:#fff;
+    max-width: 1350px;
+    margin: 0px auto;
+    height: 500px;
+}
+.col{
+    float:left;
+    background:#fff;
+    border: none;
+	padding:10px;
+    height: auto;
+}
+.c33{
+    width: 33.333333%;
+}
+.c100{
+    width: 100%;
+}
+.c25{
+    width: 25%;
+}
+.c75{
+    width: 75%;
+}
+.c50{
+    width: 50%;
+}
+.icons{
+    width: 50%;
+}
+.icon{
+    padding: 10px;
+    width: 15%;
+}
+/*Footer*/
+footer{
+    background-image: url(Assets/Asset%201.svg);
+    background-size: cover;
+    background-position: center;
+    padding-left: 150px;
+    padding-top: 30px;
+    height: 20vh;
+}
+.containers{
+    background: none;
+    max-height: 1300px;
+    margin:0px auto;
+}
+.fot{
+    font-size: 15px;
+}px;
+/*contact*/
+.containerc{
+    background:#fff;
+    max-width: 1000px;
+    margin: 0px auto;
+    height: 500px;
+}
+.t{
+    text-align: center;
+}
+input{
+    width: 80%; 
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 5px;
+   
+}
+.submit{
+    background-color: white;
+    border: solid;
+    width: 25%;
+    border-radius: 5px;
+}
+.submit: hover{
+    background-color: black;
+    border: solid;
+    width: 25%;
+    border-radius: 5px;
+    color: white;
+}
+.formt{
+    padding: 10px;
+}
+textarea{
+    float: left;
+    width: 80%;
+    height: 100px;
+    border: 2px solid black;
+    resize: none;
+    border-radius: 5px;
+}
+colf{
+    float:left;
+    background:none;
+    border: none;
+	padding:10px;
+}
+.logo{
+    width: 300px;
+}
+/*About me*/
+.containerA {
+    background:#fff;
+    max-width: 1350px;
+    margin: 0px auto;
+    height: 700px;
+}
+.pic{
+    width: 60%;
+}
+.pam{
+    text-align: justify;
+    font-size: 20px;
+}
+.photo{
+    text-align: center;
+}
+.about{
+    background-color: black;
+    color: white;
+}
+.link{
+    color:crimson;
+}
+.media{
+    width: 3%;
+    padding: 10px;
+    display: inline-block;
+    margin: 5px;
+}
+
+/*portfolio*/
+.containerPP{
+    display: grid;
+    grid-template-columns: auto auto;
+    background:#fff;
+    max-width: 1250px;
+    margin: 0px auto;
+    vertical-align: middle;
+    border: 1px solid black;
+}
+.colp{
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    float:left;
+    background:#fff;
+}
+.black{
+    background-color: #000;
+    color: #fff;
+    padding: 50px;
+    text-align: justify;
+    vertical-align: middle;
+}
+.screenshot{
+    width: 100%;
+}
+a.button{
+    font-size: 15px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 12px;
+    float: right;
+}
+a:hover.button{
+    background-color: white;
+    font-size: 15px;
+    color: black;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 12px;
+    float: right;
+}
