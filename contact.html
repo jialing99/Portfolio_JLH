@@ -5,6 +5,8 @@
         <link rel="stylesheet" href="style.css">
         <link rel="icon" href="Assets/ic.svg">
         <link rel="stylesheet" href="Font/stylefont.css">
+        <meta charset="UTF-8" />
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </head>
     <body>
         <nav>
@@ -17,61 +19,51 @@
         <div class="banner">
         </div>
         <hr><br>
-        <h1 style="text-align: center; padding: 50px;">Contact me</h1>
+        <h1 style="text-align: center; padding: 150px 100px 100px;" class="t-contact">Contact me</h1>
         <br>
-        <form>
-            <div class="container">
-                <div class="col c50 t">
-                    <p class="formt">Name: </p>
-                </div>
-                <div class="col c50">
-                    <label>
-                        <input type="text" name="name">
-                    </label>
-                </div>
-                <div class="col c50 t">
-                    <p class="formt">E-mail: </p>
-                </div>
-                <div class="col c50">
-                    <label>
-                        <input type="email" name="email">
-                    </label>
-                </div>
-                <div class="col c50 t">
-                    <p class="formt">Phone: </p>
-                </div>
-                <div class="col c50">
-                    <label>
-                        <input type="tel" id="phone" name="phone" placeholder="___-___-____" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
-                    </label>
-                </div>
-                <div class="col c50 t">
-                    <p class="formt">Reason: </p>
-                </div>
-                <div class="col c50 t">
-                    <label>
-                        <textarea name="message" placeholder="Type Here..."></textarea>
-                    </label>
-                </div>
-                <div class="col c100" style="text-align: center">
-                    <input type="submit" class="submit" value="Submit">
-                </div>
-            </div>
-        </form>
+        
+        <form class="contact-form">
+        	<div id="container-contact">
+        		<div class="col c50 t">
+      				<label for="">Name</label>
+				</div>
+     			<div class="col c50">
+      				<input class="name" type="text" placeholder="Name" /><br />
+				</div>
+     			<div class="col c50 t">
+      				<label for="">Email</label>
+				</div>
+				<div class="col c50">
+      				<input class="email" type="email" placeholder="E-mail" />
+				</div>
+     			<div class="col c50 t">
+      				<label for="">Message</label>
+				</div>
+     			<div class="col c50">
+      				<textarea class="message" name="" id="" placeholder="Type Here"></textarea>
+				</div>
+     		<div class="col c100" style="text-align: center">
+      			<button type="submit" id="submit">Submit</button>
+			</div>
+			</div>
+    	</form>
         <hr>
         <footer>
             <div class="containers">
                 <div class="col">
                     <img src="Assets/ic.svg" class="logo">
                 </div>
-                   <div class="col">
-                      <br>
-                       <h2>Jia Ling Lin Huang</h2>
-                       <p class="fot">Copyright © 2020</p>
-                       <p class="fot">All rights reserved</p>
-                       <br>
-                </div>
+                <div class="col">
+                	<br>
+                    <h2>Jia Ling Lin Huang</h2>
+                    <p class="fot">Copyright © 2020</p>
+                    <p class="fot">All rights reserved</p>
+                    <br>
+            	</div>
             </div>
         </footer>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+		<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase.js"></script>
+   		<script src="JS/app.js"></script>
     </body>
 </html>
